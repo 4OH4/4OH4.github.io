@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Research interests
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Machine learning/machine vision
+Predictive modelling
+Statistical analysis
+Network analytics
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+If you have a problem... if no one else can help... and if you can find them...
