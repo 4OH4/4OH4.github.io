@@ -7,8 +7,11 @@ permalink: /about/
 ### Research interests
 
 Machine learning/machine vision
+
 Predictive modelling
+
 Statistical analysis
+
 Network analytics
 
 ### Contact me
