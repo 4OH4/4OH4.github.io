@@ -3,10 +3,26 @@ layout: post
 title: Getting started with the Movidius Neural Compute Stick
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Now that the [Movidius NCS](https://developer.movidius.com/) has TensorFlow and Raspberry Pi support, I thought it was time to really see what it was capable of. This is a quick guide to getting started with the Movidius stick, and running some of the examples. It's based around a clean install of Ubuntu 16.04 LTS.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/movidius.jpg)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+The [Developer Center](https://developer.movidius.com/start) covers the basics. Here's what I did:
 
-Updated by me!
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install git
+    
+    mkdir -p ~/workspace
+    cd ~/workspace
+    git clone https://github.com/movidius/ncsdk.git
+    cd ~/workspace/ncsdk
+    make install
+    
+Now plug in the Movidius NCS stick. Run the included examples:
+
+    make examples
+
+
+
+To follow: running inference, and TensorFlow
