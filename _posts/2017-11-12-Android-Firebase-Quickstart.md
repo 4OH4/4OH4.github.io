@@ -9,7 +9,7 @@ There are a whole range of open-source tools and free training to help you get s
 
 The Udacity [Developing Android Apps](https://www.udacity.com/course/new-android-fundamentals--ud851) course is free and is written in conjunction with Google. Ideal for those with a bit of programming experience already. Also, there is the [Firebase in a Weekend: Android](https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352) for further study.
 
-The following sections will cover getting the application code and setting up in Android Studio 3.0, connecting to Google Firebase with user authentication using a Google account, and running the app on the local emulator or a connected phone.
+This tutorial will introduce getting the application code running in Android Studio 3.0, connecting to Google Firebase with user authentication using a Google account, and running the app on the local emulator or a connected phone.
 
 # 1. Getting the sample application source code
 
